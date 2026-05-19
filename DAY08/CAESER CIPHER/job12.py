@@ -1,0 +1,3 @@
+import funcions
+
+funcions.texting()
