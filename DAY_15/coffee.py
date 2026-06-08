@@ -1,12 +1,20 @@
 coffee_types = {
-    "Espresso": {
+    "espresso": {
         "ingredients":{
             "water": 50,
             "coffee": 18
         },
         "price": 1.5
     },
-    "Cappuccino":{
+    "latte":{
+        "ingredients":{
+            "water": 250,
+            "coffee": 24,
+            "milk": 150           
+        },
+        "price": 2.5
+    },
+    "cappuccino":{
         "ingredients":{
             "water": 250,
             "coffee": 24,
@@ -14,7 +22,12 @@ coffee_types = {
         },
         "price": 3.0
     }
-    "Latte":{
+}
 
-    }
+profit = 0
+
+recources = {
+    "water": 300,
+    "milk": 200,
+    "coffee": 100
 }
